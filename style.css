@@ -311,7 +311,7 @@ nav{
 }
 .news img:last-of-type{
     position: absolute;
-    bottom: 2.58vh;
+    bottom: 1.88vh;
     width: 2.92vw;
     height: 2.92vw;
     border-radius: 50%;
@@ -331,15 +331,14 @@ nav{
 }
 .news span:first-of-type{
     position: absolute;
-    bottom: 3vw;
+    bottom: 2.4vw;
     font-weight: bold;
     left: 15.7vw;
     font-size: .9vw;
-    /* margin-top: 100vw; */
 }
 .news span:last-of-type{
     position: absolute;
-    bottom: 2.59vh;
+    bottom: 1.3vw;
     font-size: .9vw;
     left: 15.7vw;
 }
@@ -664,7 +663,7 @@ footer{
     }
     .news p{
         font-size: 2.5vw;
-        margin-top: 7vh;
+        margin-top: 10vw;
         margin-right: 22vw;
     }
     .news span:first-of-type{
