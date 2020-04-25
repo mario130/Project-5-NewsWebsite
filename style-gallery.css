@@ -1,0 +1,53 @@
+*{box-sizing: border-box;}
+.gallery{
+    width: 600px;
+    overflow: hidden;
+    background-color: #FFF;
+    margin: auto;
+    padding: 3px;
+    border: 1px solid #CCC;
+}
+
+.main-img{
+    height: 394.3px; /* advanced trick to avoid the div from shrinking while changing images */
+    position: relative;   /* preparing arrow icons */
+    margin-bottom: 3px;
+}
+
+.gallery .main-img i{
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+.gallery .main-img .fa-chevron-left{
+    left: 0;
+}
+.gallery .main-img .fa-chevron-right{
+    right: 0;
+}
+
+.gallery .main-img img{
+    max-width: 100%;
+}
+
+.thumbnails{
+    overflow: hidden;
+}
+.thumbnails img{
+    /* width: 19.6%; */  /*  Done with js dynamically */
+    float: left;
+    transition: opacity .3s ease-in-out;
+    opacity: .6;
+    cursor: pointer;
+}
+
+.thumbnails img:not(:last-child){
+    /* margin-right: .5%; */    /* done with js */
+}
+
+.thumbnails .active {
+    border: 1px solid #46c7ff;
+    opacity: 1;
+}
