@@ -193,6 +193,7 @@ nav{
     font-size: 1vw;
     float: left;
     margin-bottom: 1vh;
+    margin-left: .3vw;
 }
 .side-search i{
     position: absolute;
@@ -207,6 +208,10 @@ nav{
 .side-search .tags{
     font-size: 1vw;
     margin: .75vw 0;
+    margin-left: .3vw;
+}
+.side-search .tags span{
+    margin-right: .5vw;
 }
 
 .genres{
@@ -245,6 +250,7 @@ nav{
 .count{
     float: right;
     top: .9vh;
+    right: .73vw;
     font-size: 1.2vw;
     position: relative;
 }
