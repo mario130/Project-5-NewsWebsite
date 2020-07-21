@@ -1,5 +1,5 @@
 # newzy.
-A website which was inspired to me and a friend while I was still learning media query, But since then I've came a long way in making the website more responsive and good looking.
+A website which was inspired to me and a friend while I was still learning media query, But since then I've came a long way in making the website more responsive and good looking. See a [live version](https://mario130.github.io/Project-5-NewsWebsite/).
 
 ### Technologies used
 - HTML
