@@ -13,7 +13,7 @@ A website which was inspired to me and a friend while I was still learning media
 Using media query gives so much control of elements sizes, possibly more than using Bootstrap in some cases.
 
 ### My portfolio
- Have a look at my works [Mario Yonan](https://mario130.github.io/Portfolio/dist/homepage.html).
+ Have a look at my works [Mario Yonan](http://mario130.github.io/Portfolio).
 
 ### Contact me
 
