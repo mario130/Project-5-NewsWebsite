@@ -588,6 +588,11 @@ footer{
     font-size: .9vw;
     display: block;
 }
+.last-info a{
+    text-decoration: none;
+    color: #0e7bc3;
+    
+}
 
 
 
@@ -729,7 +734,7 @@ footer{
         font-size: 4vw;
     }
     footer{
-        background-color: ;
+        /* background-color: ; */
     }
     .footer{
         padding: 3vw 0;
@@ -754,6 +759,7 @@ footer{
         font-size: 2vw;
         display: block;
         width: 60%;
+        
     }
     .last-info span:first-of-type{
         margin-top: 2vw;
